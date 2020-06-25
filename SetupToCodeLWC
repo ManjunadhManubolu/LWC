@@ -1,0 +1,12 @@
+1. Install CLI
+a. If Windows 64 bit : https://sfdc.co/sfdx_cli_win64
+b. If Windows 32 bit : https://sfdc.co/sfdx_cli_win
+c. If Mac : https://sfdc.co/sfdx_cli_osx
+d. Once installation is completed, to check type "sfdx" in command prompt.
+
+2. Install JDK8 or JdK11 and set the path. 
+To set path: Goto Environment variables=> System variables=> Copy BIN path of JDK and paste into path.
+
+3. In VS code, To write SFDX commands you have 2 options:
+Option 1: Write your complete command on Terminal.
+Option 2: To auto create command, Ctrl+Shift+P
