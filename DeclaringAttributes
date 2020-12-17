@@ -1,18 +1,1 @@
-Resource	Aura File		Lightning Web Components File	
-	File Extension	syntax	File Extension	syntax
-Markup	sample.cmp	"<aura:component>
-</aura:component>"	sample.html	"<template>
-</template>"
-Declearing attributes	sample.cmp	"<aura:component>
-<aura:attribute name=""var1"" type=""String""/>
-</aura:component>"	sample.js [Please note that we can't declare attributes in  html file.So, we have to swith that part to JS file. Attributes in aura compoent file = properties in LWC Js file]	"import { LightningElement, api } from 'lwc';
-export default class PropertySummary extends LightningElement 
-{
-    @api var1;
-    property;
-}
-Here : 
-@api - Is a Decorator. 
-Usage: To mark variable as public. So that this variable value can be set 
-a]. from Appbuilder or
-b]. by a parent component that uses the component in its markup."
+This is attibutes declaration.
